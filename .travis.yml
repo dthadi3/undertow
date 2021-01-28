@@ -3,4 +3,4 @@ arch:
   - ppc64le
 language: java
 before_install:
-  - apt-get install openjdk-8-jdk maven
+  - apt install openjdk-8-jdk maven
