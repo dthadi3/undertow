@@ -5,5 +5,4 @@ dist: bionic
 language: java
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y build-essential g++ wget git 
-  - sudo apt forbid-version openjdk-8-jre-headless
+  - sudo apt-get install -y build-essential g++ wget git openjdk-8-jre-headless
