@@ -7,5 +7,6 @@ before_install:
   - export JAVA_HOME=/usr/lib/jvm/adoptopenjdk-11-hotspot-ppc64el
   - sudo apt-get update
   - sudo apt-get install -y build-essential g++ wget git openjdk-8-jre-headless
+  - mvn install surefire@3.0.0-M5
 install:
   - mvn install
