@@ -9,6 +9,9 @@ jdk:
 #  - openjdk15
   - openjdk11
 
+install:
+  - mvn process-classes compile -Pnochecks -DskipTests
+  
 #services:
 #  - docker
 
